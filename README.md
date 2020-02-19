@@ -5,3 +5,6 @@ even if you oper it directly as index.html still it will work fine.
 here only front end web app is uploaded working back end code will be uploaded later beacause of size limit exceeds by 
 25 MB.
 BootStraps Rich Application
+JavaScript Validation
+GPS Location Implemented in Ajax
+Java Mail API Implemented(Core Code is not uploaded now)

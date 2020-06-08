@@ -1,1 +1,13 @@
+. Education and Employment (ShareSEK):
+	Description :  
+		Our application is a wab application which us useful to get job for educated experts and useful for students or any user who willing to study based on their flexibility either tution on expert place or at user place if user is diability or any other reason or tution , study can be online place like whatsapp, zoom, skype, messenger, youtube or any other place . study material can be videos , soft copy, online classes, text chatting or hard copy to it depends on user’s comfortablity and flexible time with expert.
+Out work is to connect needy user to expert and needy expert to user / student . through our application we insure authentication both level user and expert level.
 
+Responsibility : We were team of two student . We had two different work on same project. My work is to develop web application . I worked at frontend and backend both side. 
+
+Key-Technologies :
+•	IDE 		: NetBeans
+•	Frontend 	: HTML, CSS, JavaScript, BootStraps.
+•	Backend 	: Servlet;
+•	Driver 		: JDBC;
+•	Database 	: Mysql;

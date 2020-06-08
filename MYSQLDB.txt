@@ -1,0 +1,96 @@
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| rndproject         |
++--------------------+
+14 rows in set (0.347 sec)
+
+MariaDB [(none)]> use rndproject;
+Database changed
+MariaDB [rndproject]> show tables;
++----------------------+
+| Tables_in_rndproject |
++----------------------+
+| blog                 |
+| email_subscription   |
+| expert               |
+| signup               |
+| user                 |
++----------------------+
+5 rows in set (0.002 sec)
+
+MariaDB [rndproject]> desc blog;
++--------+--------------+------+-----+---------+----------------+
+| Field  | Type         | Null | Key | Default | Extra          |
++--------+--------------+------+-----+---------+----------------+
+| sno    | int(10)      | NO   | PRI | NULL    | auto_increment |
+| ttext  | varchar(500) | YES  |     | NULL    |                |
+| uid    | varchar(20)  | YES  |     | NULL    |                |
+| email  | varchar(30)  | YES  |     | NULL    |                |
+| stdate | varchar(50)  | YES  |     | NULL    |                |
+| star   | int(10)      | YES  |     | NULL    |                |
++--------+--------------+------+-----+---------+----------------+
+6 rows in set (0.133 sec)
+
+MariaDB [rndproject]> desc email_subscription;
++----------+-------------+------+-----+---------+----------------+
+| Field    | Type        | Null | Key | Default | Extra          |
++----------+-------------+------+-----+---------+----------------+
+| email_id | varchar(30) | YES  |     | NULL    |                |
+| s_no     | int(10)     | NO   | PRI | NULL    | auto_increment |
++----------+-------------+------+-----+---------+----------------+
+2 rows in set (0.152 sec)
+
+MariaDB [rndproject]> desc expert;
++----------------+--------------+------+-----+---------+-------+
+| Field          | Type         | Null | Key | Default | Extra |
++----------------+--------------+------+-----+---------+-------+
+| name           | varchar(20)  | YES  |     | NULL    |       |
+| mobileNumber   | varchar(20)  | YES  |     | NULL    |       |
+| email          | varchar(40)  | YES  |     | NULL    |       |
+| location       | varchar(20)  | YES  |     | NULL    |       |
+| skill          | varchar(40)  | YES  |     | NULL    |       |
+| sex            | varchar(20)  | YES  |     | NULL    |       |
+| aadharNumber   | varchar(20)  | YES  |     | NULL    |       |
+| typeOfService  | varchar(20)  | YES  |     | NULL    |       |
+| typeOfPlatform | varchar(20)  | YES  |     | NULL    |       |
+| address        | varchar(100) | YES  |     | NULL    |       |
+| passWord       | varchar(20)  | YES  |     | NULL    |       |
+| qualification  | varchar(50)  | YES  |     | NULL    |       |
+| subDomain      | varchar(20)  | YES  |     | NULL    |       |
++----------------+--------------+------+-----+---------+-------+
+13 rows in set (0.091 sec)
+
+MariaDB [rndproject]> desc signup;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| uid    | varchar(20) | YES  |     | NULL    |       |
+| passwd | varchar(20) | YES  |     | NULL    |       |
+| email  | varchar(30) | YES  |     | NULL    |       |
+| mono   | varchar(20) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.126 sec)
+
+MariaDB [rndproject]> desc user;
++----------------+--------------+------+-----+---------+-------+
+| Field          | Type         | Null | Key | Default | Extra |
++----------------+--------------+------+-----+---------+-------+
+| name           | varchar(20)  | YES  |     | NULL    |       |
+| mobileNumber   | varchar(20)  | YES  |     | NULL    |       |
+| email          | varchar(40)  | YES  |     | NULL    |       |
+| location       | varchar(20)  | YES  |     | NULL    |       |
+| skill          | varchar(20)  | YES  |     | NULL    |       |
+| sex            | varchar(20)  | YES  |     | NULL    |       |
+| aadharNumber   | varchar(20)  | YES  |     | NULL    |       |
+| typeOfService  | varchar(20)  | YES  |     | NULL    |       |
+| typeOfPlatform | varchar(20)  | YES  |     | NULL    |       |
+| address        | varchar(100) | YES  |     | NULL    |       |
+| passWord       | varchar(20)  | YES  |     | NULL    |       |
+| qualification  | varchar(50)  | YES  |     | NULL    |       |
+| subDomain      | varchar(20)  | YES  |     | NULL    |       |
++----------------+--------------+------+-----+---------+-------+
+13 rows in set (0.402 sec)
+
+MariaDB [rndproject]>
